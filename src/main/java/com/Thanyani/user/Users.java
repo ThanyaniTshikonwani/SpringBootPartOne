@@ -1,12 +1,14 @@
 package com.Thanyani.user;
 
-public class User {
+public class Users {
     private long id;
     private  String name;
     private String surname;
 
 
-    public User(long id, String name, String surname) {
+
+
+    public Users(long id, String name, String surname) {
         this.id = id;
         this.name = name;
         this.surname = surname;
@@ -34,5 +36,13 @@ public class User {
 
     public void setSurname(String surname) {
         this.surname = surname;
+    }
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                '}';
     }
 }

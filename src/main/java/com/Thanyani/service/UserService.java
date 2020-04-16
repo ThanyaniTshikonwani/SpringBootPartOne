@@ -2,7 +2,9 @@ package com.Thanyani.service;
 
 public interface UserService {
 
-   void addUser( String name, String surname);
+   void addUser(String name, String surname);
+
    void removeUser(long Id);
-   void  getUser(long Id);
+
+   void getUser(long Id);
 }
